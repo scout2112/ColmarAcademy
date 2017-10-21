@@ -1,0 +1,47 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+/* header - desktop */
+
+.header {
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2rem;
+  margin-left: 1.5rem;
+}
+
+.logo h3 {
+  text-transform: uppercase;
+}
+
+.header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-right: 1.5rem;
+}
+
+.header li {
+  padding-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Content 1 */
