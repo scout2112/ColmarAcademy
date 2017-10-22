@@ -103,6 +103,8 @@ nav a {
 
 .leftColumn img {
   padding-top: 1rem;
+  max-width: 100%;
+  height: auto;
 }
 
 .leftColumn .text {
@@ -198,4 +200,58 @@ nav a {
 
 .capitalize {
   text-transform: capitalize;
+}
+
+/* Content 4 */
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.columnLeft {
+  width: 60%;
+  margin: 0rem 1.5rem 1.5rem 1.5rem;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+.columnRight {
+  width: 40%;
+}
+
+.box2 {
+  display: flex;
+  align-items: center;
+}
+
+.box2 img {
+  width: 35%;
+  height: auto;
+  padding: 1rem;
+}
+
+.box2 .text {
+  width: 65%;
+}
+
+.box2:first-child {
+  background-color: lightgray;
+}
+
+/* Footer */
+
+.footer {
+  height: 5rem;
+}
+
+.footer p {
+  font-size: 1rem;
+  padding-left: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid lightgray;
+  color: gray;
 }
